@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw4PDQ8PEA8NDRANDQ0PDQ0NDQ8NDQ8NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKQBNAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAUH/8QAKBABAAICAQMEAgIDAQAAAAAAAAECAxExIVFxBEGBkWGxIkISodEy/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AP1cHb09Ou+3HkHbFTUftoAAAEtPSfEqzln+MgxitExqdTrv2WcNZ9teHCs6l6qW3Gwcbem7T9w529Pb8T4l6wHgtSY5iY+GX0WbUrPMQD5+jT2W9NX8x8udvSz7THz0B5kdrYLR7fXVzmNc9PIOmPL7T9uryumPJrpPH6B6sXLq41nrDsAAAABLNbNW4cwdBmJaAAAABm8sLaUBkWUAABxrXc67vZWNRrs5+npqN9+PDqAAAAA555/j8ujl6iePkHBvFfU/j3ZAescsN/b6dQAAAACQBi2Gs+0fHRyt6SPaZjz1egB5q4bV7THbiXpiWL29maW0DqAAACW4YbtwwCrEoA2MxLQCWVmwMyiygIioAADtWdwrjWdO0TsAAAABwzz1+Hd5ss/ykGQIBYeiltx+3napbUg9ARIAAAAAxe/st7acgAWAapZ0cm6WBoAEvww3dgFAAWJRYgGplhn1FZ/x6TMTz0fOtaZ5mZ8zsH0bWiOZiPMw5znpH9o+OrwaQHsn1dPzPwxPrI9q/cvNpAd59ZPaP9jz6UH1FrOhAdokc6zp0AAAeW89Z8y9UvIAooAAOmK3t9OrzO+O24BoABm9tLa2nEAAFgFAAButmnJ0rIJdFukAEQsVaBIhQBLPB6rHqd+1v290sZaf5RMfXkHzdI3MJoGU00aBkVAfUFARa20gDqMVtpsGck9J8PND0Zv/AC4AKAAAC1nUosRIPRE7S1tM44mGLSCTIACkKAAAAAsM2nTlfJM8dAeje/jluIeGJmJerFl304n9g6AAASDKADy+qx/278vO+haNxru8N66mY7AymmkBnQoD6QoCAAjVbIkyC5+IcnWmrc+3DcVjtAPPES1GOXcBzjF+VjHDYCRWOygAzau2gHGYR2tXblMaAVFABmbA0xa/ZmZ2gJKKAyKA74c2+k89+7s8Trize0/YPQllS4MiADh6im43258O6SDwo6ZK6n9eGQZFAfQFQAJcrZOwNWtpiZSFBvDPX4dnDHPWHcAAAAAAAAAmABzmukmWpszemvAMTKKAyKAyKAyKAyKA3iy66Tx+na07eaIenHEcAg1NUmAZlFSQc8tdx4cHqcMtdT5Bz0oA97N7xH/GL5O325gtrTKQLACgBEvS8z0V4jwCgAAAAAAxa/YGrW05zO0AV0rw5t0Bi9NMPQ53p2BzRpAQVAQUBkVYjYLjr7uiAOsDNJaBJrDE0l0AcZZtXcPRMMzjB4Zgei+CZkAy11P4lh6r13Gnl0CwqKAAA7456ODrh9wdAAAAEtbRNmQYtbaLMIChACtU5ZWOQdAAYvTs5u7N6A5IoCI0gI3WErDQAALEujk3SQaAAAAAAcs1ff7dSYB5hbRqdIAAA6YeXNvHyDsCTILMszIAgoCMzDQDEDUwyAoA6wJThQAAZtXbnp2S1dg4izBALAAAIAsTqUJB2Gcc9PDQAAAAAAOeaHKAAABYWOfkAdkUBAAAAEUBEkAQAG8bQAAAAAzeOjAAIAAABIAuPl1AAAAAH//Z);
+}
+
+.header{
+    width: 400px;
+    margin: 0 auto;
+    padding: px 0px;
+    margin: 40px auto;
+    height: 25px;
+    left: 525px;
+    top: 51px;
+    position: absolute ;
+}
+.header_link{
+    margin: 0 35px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #047600;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    width: 420px;
+    height: 546px;
+    left: 100px;
+    top: 150px;
+    background-color: transparent;
+
+}
+.card_text {
+}
+.card-text1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+color: #B4AD9E;
+}
+.card-text2 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #626262;
+
+}
+.card-text3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    color: #626262;
+}
+.card-img{
+    width: 300px;
+    height: 400px;
+
+}
+.card_2{
+    width: 400px;
+    width: 500px;
+    position: absolute;
+    width: 420px;
+    height: 746px;
+    left: 550px;
+    top: 150px;
+
+}
+.card-img-2 {
+}
+.card_text-2 {
+}
+.card-text-2_1 {
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 16px;
+color: #B4AD9E;
+}
+.card-text-2_2 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #626262;
+}
+.card-text-2_3 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 19px;
+color: #626262;z    
+}
+.card-3 {
+    width: 400px;
+    width: 500px;
+    position: absolute;
+    width: 421px;
+    height: 516px;
+    left: 1000px;
+    top: 150px;
+}
+.card-img-3 {
+    width: 300px;
+    height: 400px;
+}
+.card_text-3 {  
+}
+.card-text-3_1 {
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 16px;
+color: #B4AD9E;
+}
+.card-text-3_2 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #626262;
+}
+.card-text-3_3 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 19px;
+color: #626262;
+}
+.music{
+    width: 400px;
+}
+.card-text_aud{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    margin: 0 auto  ;
+}
+.card-img-2{
+    width: 300px;
+    height: 400px;
+}
+.header-h1{
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 530px;
+    top: 20px;
+    font-family: 'Playfair Display  ';
+    font-weight: 200;
+}
